@@ -5,6 +5,30 @@
    <tag>Registration</tag>
    <comment></comment>
    <testCaseGuid>ca6f1513-e220-42c5-b5e4-c87840ae2274</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a911b9e4-f27f-4e3a-8f3b-4b8a44ea2ce1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c16edb5a-08ec-4c32-8cf4-5b8fb57dbb70</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1a3ae38-d74e-4712-bce0-24a7dcaaf4fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70617006-c77c-4821-8fdb-936830a9b03c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Alaska'</defaultValue>
       <description></description>

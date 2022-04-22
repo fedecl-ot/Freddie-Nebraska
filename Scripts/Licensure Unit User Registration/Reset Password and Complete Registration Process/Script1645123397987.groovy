@@ -19,20 +19,41 @@ import org.openqa.selenium.Keys as Keys
 
 import gmail_Connection.getEmailContent as getEmailContent
 
-
+int currentTab
 
 // Verify Parent TC has not failed
 String[] parentsTC = ['Test Cases/Licensure Unit User Registration/Registration Successful - US Citizen - With SSN']
 
 CustomKeywords.'tc_listener.tcl.checkErrors'(parentsTC)
 
-
-
 // Get link to complete registration from Email received by the Applicant
-String link = CustomKeywords.'gmail_Connection.getEmailContent.findConfirmEmailURL'(GlobalVariable.G_Gmail_Test_Account,  GlobalVariable.G_Gmail_Test_Account_Pass, GlobalVariable.G_Applicant_Email)
+String link = 'https://account.protonmail.com/login'
 
 // Open browswer and navigate to Rest Password link and complete the registration
 WebUI.openBrowser(link)
+
+//Login to proton email to verify registration confirmation link
+CustomKeywords.'protonEmailVerify.enterUsername'('freddie41testing@protonmail.com')
+
+CustomKeywords.'protonEmailVerify.enterPassword'('fede235161')
+
+CustomKeywords.'protonEmailVerify.clickOnStayCheckbox'()
+
+CustomKeywords.'protonEmailVerify.clickOnLoginBtn'()
+
+// Wait for email inbox to load
+System.sleep(15000)
+
+CustomKeywords.'protonEmailVerify.openEmailMsj'()
+
+System.sleep(5000)
+
+CustomKeywords.'protonEmailVerify.clickOnVerifyLink'()
+
+// Move to the next Window
+currentTab = WebUI.getWindowIndex()
+
+WebUI.switchToWindowIndex(currentTab + 1)
 
 CustomKeywords.'pages.Page_Reset_Password_Complete_Registration.verifyUserId'(GlobalVariable.G_Applicant_Email)
 

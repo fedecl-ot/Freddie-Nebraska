@@ -33,7 +33,7 @@ String randomLastName = Generic_functions.randomString(chars, 5)
 String randomSSN = Generic_functions.randomString(nums, 9)
 GlobalVariable.G_Applicant_FirstName = ('PR' + randomFirstName)
 GlobalVariable.G_Applicant_LastName = ('Automation' + randomLastName)
-GlobalVariable.G_Applicant_Email = (('pruebas.onetree+Applicant' + randomFirstName) + '@gmail.com')
+GlobalVariable.G_Applicant_Email = (('freddie41testing+Applicant' + randomFirstName) + '@proton.me')
 
 
 // Open Browser
