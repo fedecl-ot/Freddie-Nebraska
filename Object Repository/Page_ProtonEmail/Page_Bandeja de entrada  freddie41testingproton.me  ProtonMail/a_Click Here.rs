@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Click Here</name>
+   <tag></tag>
+   <elementGuidId>f9b532b0-4cd3-4658-af2b-1f57e95da92e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Click Here')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9b5b09b7-6f43-4bd6-b797-c69688e5118c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>0c43eb84-514c-43d0-b9e5-38b6c531b4b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://vv5qa.visualvault.com/?rt=hI+c7CoG4JmLrpmK%2Fxn1DSiiaYz83LIwNCL7nOwRwSCzyQdvGBFmRQ%3D%3D</value>
+      <webElementGuid>91537b2a-e898-4ab8-9889-28971cb9a942</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer nofollow noopener</value>
+      <webElementGuid>e5f7137b-4af2-461b-93a6-f833317bb94e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click Here</value>
+      <webElementGuid>d73c9e0b-27f2-4ae7-81c8-8be3ea4969ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;proton-root&quot;)/div[2]/div[1]/table[@class=&quot;k-table&quot;]/tbody[1]/tr[1]/td[1]/p[7]/a[1]</value>
+      <webElementGuid>f6916e79-f54a-4ad4-90c9-793adf4bbe84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_ProtonEmail/Page_Bandeja de entrada  freddie41testingproton.me  ProtonMail/iframe_Reenviar_w100</value>
+      <webElementGuid>120f7fc8-57a4-4aad-8562-eb9a94ac9455</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='proton-root']/div[2]/div/table/tbody/tr/td/p[7]/a</value>
+      <webElementGuid>954720b4-2cf7-4e35-862c-4b4cbbb6329a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Click Here')]</value>
+      <webElementGuid>5f60394b-9732-4726-9185-8c4679d1dbc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Click Here']/parent::*</value>
+      <webElementGuid>11d79b3a-567d-444e-87fd-6e7d0abf9c2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://vv5qa.visualvault.com/')]</value>
+      <webElementGuid>b8ac7c82-8f92-49f5-b5ce-151425d09676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>105624ea-6f94-420b-90ac-130c0ea24dee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://vv5qa.visualvault.com/?rt=hI+c7CoG4JmLrpmK%2Fxn1DSiiaYz83LIwNCL7nOwRwSCzyQdvGBFmRQ%3D%3D' and (text() = 'Click Here' or . = 'Click Here')]</value>
+      <webElementGuid>8f71273a-21c9-4291-9e41-0f194851ffd3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
